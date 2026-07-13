@@ -1,0 +1,30 @@
+# apprenticeship
+
+This apprenticeship project is setup to help me bag a job within 3 months and have this repo as the SSoT for the project. For the project, the repo is set, the schedule is set and the plan of action towards AI-Engineering is soon to be set 
+
+| Area            | Choice                                                       |
+| --------------- | ------------------------------------------------------------ |
+| Frontend        | React + TypeScript                                           |
+| Backend         | FastAPI (Python)                                             |
+| Database        | PostgreSQL                                                   |
+| ORM             | SQLAlchemy                                                   |
+| Authentication  | JWT or Clerk                                                 |
+| AI              | OpenAI-compatible APIs (via OpenRouter if cost is a concern) |
+| File Storage    | Local initially, then cloud storage later                    |
+| Deployment      | Docker + Railway or Render                                   |
+| Version Control | Git + GitHub                                                 |
+
+by Eo 3M => A software engineer who builds AI-powered business applications.
+
+## system ownership
+
+| File                              | Owner                   | Update Trigger                                              |
+| --------------------------------- | ----------------------- | ----------------------------------------------------------- |
+| `vision.md`                       | Both of us [myself/ SE] | Only when product direction changes.                        |
+| `v1-scope.md`                     | Both of us              | When a feature is added, removed, or deferred.              |
+| `architecture.md`                 | SE (mentor)             | When a technical design decision changes.                   |
+| `api-contract.md`                 | SE initially, then both | Whenever an endpoint or payload changes.                    |
+| `decision-log.md`                 | SE                      | At the end of any meeting that produces a lasting decision. |
+| `daily/YYYY-MM-DD.md`             | Me                      | Every review meeting. Never edited afterward.               |
+| `projects/gap-analysis/README.md` | Me                      | Once a week with current progress and next milestone.       |
+| `backlog.md` (to be added)        | Both of us              | During planning when priorities change.                     |
