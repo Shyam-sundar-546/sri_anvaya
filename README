@@ -1,30 +1,144 @@
-# apprenticeship
+# Sri Anvaya
 
-This apprenticeship project is setup to help me bag a job within 3 months and have this repo as the SSoT for the project. For the project, the repo is set, the schedule is set and the plan of action towards AI-Engineering is soon to be set 
+> Repository for engineering, architecture, implementation, and continuous learning.
 
-| Area            | Choice                                                       |
-| --------------- | ------------------------------------------------------------ |
-| Frontend        | React + TypeScript                                           |
-| Backend         | FastAPI (Python)                                             |
-| Database        | PostgreSQL                                                   |
-| ORM             | SQLAlchemy                                                   |
-| Authentication  | JWT or Clerk                                                 |
-| AI              | OpenAI-compatible APIs (via OpenRouter if cost is a concern) |
-| File Storage    | Local initially, then cloud storage later                    |
-| Deployment      | Docker + Railway or Render                                   |
-| Version Control | Git + GitHub                                                 |
+---
 
-by Eo 3M => A software engineer who builds AI-powered business applications.
+## Purpose
 
-## system ownership
+This repository is the Single Source of Truth (SSoT) for engineering.
 
-| File                              | Owner                   | Update Trigger                                              |
-| --------------------------------- | ----------------------- | ----------------------------------------------------------- |
-| `vision.md`                       | Both of us [myself/ SE] | Only when product direction changes.                        |
-| `v1-scope.md`                     | Both of us              | When a feature is added, removed, or deferred.              |
-| `architecture.md`                 | SE (mentor)             | When a technical design decision changes.                   |
-| `api-contract.md`                 | SE initially, then both | Whenever an endpoint or payload changes.                    |
-| `decision-log.md`                 | SE                      | At the end of any meeting that produces a lasting decision. |
-| `daily/YYYY-MM-DD.md`             | Me                      | Every review meeting. Never edited afterward.               |
-| `projects/gap-analysis/README.md` | Me                      | Once a week with current progress and next milestone.       |
-| `backlog.md` (to be added)        | Both of us              | During planning when priorities change.                     |
+Chat is temporary.
+
+The repository stores permanent knowledge.
+
+All engineering decisions, architecture, implementation notes, and daily progress are documented here.
+
+---
+
+## Engineering Principles
+
+- Build by understanding first principles.
+- Learn while building.
+- Prefer official documentation over tutorials.
+- Build one feature at a time.
+- Keep architecture simple until complexity is justified.
+- Every major engineering decision must be documented.
+- Every feature should leave behind permanent knowledge.
+
+---
+
+## Repository Structure
+
+```
+docs/
+├── architecture/
+├── backend/
+├── frontend/
+├── database/
+├── api/
+├── decisions/
+├── learning/
+└── daily/
+```
+
+---
+
+## Development Philosophy
+
+This project follows a feature-driven learning approach.
+
+Each feature follows the same workflow:
+
+```
+Requirement
+    ↓
+First Principles
+    ↓
+Official Documentation
+    ↓
+Implementation
+    ↓
+Review
+    ↓
+Knowledge Extraction
+```
+
+---
+
+## Documentation Rules
+
+### Architecture
+
+High-level engineering decisions.
+
+### Backend
+
+Backend architecture, APIs, authentication, integrations.
+
+### Frontend
+
+UI architecture, routing, rendering, state management.
+
+### Database
+
+Schema design, migrations, relationships, indexing.
+
+### API
+
+Contracts between frontend and backend.
+
+### Decisions
+
+Permanent engineering decisions with reasoning.
+
+### Learning
+
+Concepts learned while building.
+
+Never copy official documentation.
+
+Document only personal understanding and engineering insights.
+
+### Daily
+
+Daily engineering log.
+
+---
+
+## Engineering Standards
+
+- Repository is the Single Source of Truth.
+- Keep documentation close to implementation.
+- Prefer composition over duplication.
+- Document decisions, not discussions.
+- Build production-quality software from the beginning.
+
+---
+
+## Commit Philosophy
+
+Every commit should represent one logical unit of work.
+
+Examples:
+
+- docs: establish repository structure
+- feat: add customer authentication
+- feat: implement booking service
+- refactor: simplify routing
+- fix: resolve booking validation
+
+---
+
+## Current Status
+
+Status: Foundation
+
+Focus:
+
+- Repository structure
+- Architecture
+- Engineering workflow
+- MVP planning
+
+---
